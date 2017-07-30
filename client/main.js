@@ -11,5 +11,6 @@ Tracker.autorun(() => {
 })
 
 Meteor.startup(() => {
+
     ReactDom.render(routes, document.getElementById('app'))
 })
